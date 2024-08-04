@@ -37,11 +37,15 @@
         Prev {
             bindings = <&kp C_PREV>;
             key-positions = <65 37>;
+            slow-release;
+            timeout-ms = <1000>;
         };
 
         Next {
             bindings = <&kp C_NEXT>;
             key-positions = <65 38>;
+            slow-release;
+            timeout-ms = <1000>;
         };
     };
 
