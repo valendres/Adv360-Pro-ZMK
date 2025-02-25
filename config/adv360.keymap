@@ -57,7 +57,7 @@
         &trans &trans &trans &trans &trans               &trans &trans &trans &trans &trans &trans              &trans &trans &trans  &trans  &trans
       >;
     };
-    
+
     mod {
       display-name = "Mod";
       bindings = <
@@ -70,7 +70,7 @@
     };
 
     command {
-      display-name = "Command"
+      display-name = "Command";
       bindings = <
         &trans        &trans  &trans  &trans  &trans  &trans  &trans                                                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
         &trans        &trans  &trans  &trans  &trans  &trans  &trans                                                        &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -78,7 +78,7 @@
         &trans        &trans  &trans  &trans  &trans  &trans                            &trans      &trans                          &trans  &trans  &trans  &trans  &trans  &trans
         &trans        &trans  &trans  &trans  &trans          &kp LEFT_COMMAND  &trans  &trans      &trans      &trans      &trans          &trans  &trans  &trans  &trans  &trans
       >;
-    }
+    };
 
     extra1 { 
       display-name = "Red";    
